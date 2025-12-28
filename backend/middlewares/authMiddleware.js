@@ -13,7 +13,7 @@ export const protect = async (req, res, next) => {
             next();
         } catch (error) {
             console.log("Verification error : " , error);
-            resizeBy.status(401).json({message : "Not authorized, token failed"});
+            res.status(401).json({message : "Not authorized, token failed"});
         }
     } else {
         res.status(401).json({message : "Not authorized"});
