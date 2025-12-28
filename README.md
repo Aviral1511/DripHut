@@ -62,7 +62,6 @@ CLOUDINARY_CLOUD_NAME=your-cloud-name
 
 ## 🚀 Future Improvements
 
-- Online Payments Integration (Razorpay/Stripe)
 - Admin Dashboard
 - Order Tracking System
 - Reviews & Ratings
